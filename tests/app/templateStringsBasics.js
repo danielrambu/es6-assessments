@@ -1,7 +1,7 @@
-var assert = require('assert');
-
 // 1: template strings - basics
 // To do: make all tests pass, leave the asserts unchanged!
+
+var assert = require('assert');
 
 describe('a template string, is wrapped in ` (backticks) instead of \' or "', function() {
 
@@ -42,7 +42,7 @@ describe('a template string, is wrapped in ` (backticks) instead of \' or "', fu
             function getDomain(){
                 return 'github.com';
             }
-            var evaluated = `${ getDomain() }`;
+            var evaluated = `${ getDomain }`;
             assert.equal(evaluated, 'github.com');
         });
 
