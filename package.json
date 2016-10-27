@@ -1,0 +1,26 @@
+{
+  "name": "es6-assessments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielrambu/es6-assessments.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielrambu/es6-assessments/issues"
+  },
+  "homepage": "https://github.com/danielrambu/es6-assessments#readme",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^3.0.1",
+    "mocha": "^3.1.2"
+  }
+}
