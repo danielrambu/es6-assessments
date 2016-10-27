@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "gulp test",
-    "watch": "gulp watch"
+    "test": "node_modules/.bin/mocha",
+    "watch": "node_modules/.bin/mocha -w"
   },
   "repository": {
     "type": "git",
@@ -19,8 +19,6 @@
   "homepage": "https://github.com/danielrambu/es6-assessments#readme",
   "dependencies": {
     "assert": "^1.4.1",
-    "gulp": "^3.9.1",
-    "gulp-mocha": "^3.0.1",
     "mocha": "^3.1.2"
   }
 }
