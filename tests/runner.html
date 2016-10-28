@@ -12,8 +12,6 @@
   <div id="test"></div>
 
   <!-- load deps -->
-  <script src="/node_modules/assert/assert.js"></script>
-  <script src="/node_modules/requirejs/require.js"></script>
   <script src="/node_modules/jquery/dist/jquery.js"></script>
   <script src="/node_modules/underscore/underscore.js"></script>
   <script src="/node_modules/chai/chai.js"></script>
@@ -22,7 +20,7 @@
 
   <!-- run tests -->
   <script>
-    window.expect = chai.expect;
+    window.assert = chai.assert;
     mocha.setup('bdd');
     window.onload = function() {
       mocha.run()
@@ -30,9 +28,7 @@
   </script>
 
   <!-- load tests and answers -->
-  <script src="/bundle.js"></script>
-  <!--<script src="/tests/app/templateStringsBasics.js"></script>-->
+  <script src="/tests/app/templateStringsBasics.js"></script>
 
-  <!-- livereload snippet -->
 </body>
 </html>
