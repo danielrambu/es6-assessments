@@ -1,7 +1,9 @@
 // 3: template strings - tagged
 // To do: make all tests pass, leave the asserts unchanged!
 
-var assert = require('assert');
+if (typeof window === 'undefined') {
+    var assert = require('chai').assert;
+}
 
 describe('tagged template strings, are an advanced form of template strings', function() {
 

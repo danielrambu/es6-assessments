@@ -4,7 +4,7 @@ module.exports = function (grunt) {
     grunt.initConfig({
         jshint: {
             all: [
-                'tests/app/*.js',
+                'tests/*/*.js',
             ],
             options: {
                 jshintrc: '.jshintrc'
@@ -12,7 +12,7 @@ module.exports = function (grunt) {
         },
         watch: {
             scripts: {
-                files: ['tests/app/*.js'],
+                files: ['tests/*/*.js'],
                 tasks: ['jshint'],
                 options: {
                     livereload: true
@@ -26,7 +26,7 @@ module.exports = function (grunt) {
                     base: {
                         path: __dirname,
                         options: {
-                            index: 'tests/runner.html',
+                            index: 'runner.html',
                             keepalive: true
                         }
                     }

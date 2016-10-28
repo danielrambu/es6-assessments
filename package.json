@@ -18,13 +18,8 @@
   },
   "homepage": "https://github.com/danielrambu/es6-assessments#readme",
   "dependencies": {
-    "assert": "^1.4.1",
-    "backbone": "^1.1.2",
-    "browserify": "^13.1.1",
     "chai": "^3.5.0",
-    "expect.js": "0.1.2",
     "finalhandler": "^0.5.0",
-    "fs": "0.0.1-security",
     "grunt": "0.4.0",
     "grunt-contrib-connect": "^0.10.1",
     "grunt-contrib-jshint": "~0.1.0",
@@ -32,10 +27,6 @@
     "jquery": "^3.1.1",
     "load-grunt-tasks": "^3.5.2",
     "mocha": "^3.1.2",
-    "require": "^2.4.20",
-    "requirejs": "^2.3.2",
-    "serve-static": "^1.11.1",
-    "sinon": "^1.17.6",
-    "underscore": "^1.8.3"
+    "serve-static": "^1.11.1"
   }
 }

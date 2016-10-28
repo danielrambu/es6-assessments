@@ -1,6 +1,10 @@
 // 10: destructuring - array
 // To do: make all tests pass, leave the assert lines unchanged!
 
+if (typeof window === 'undefined') {
+    var assert = require('chai').assert;
+}
+
 describe('destructuring arrays makes shorter code', () => {
 
     it('extract value from array, e.g. extract 0 into x like so `let [x] = [0];`', () => {
