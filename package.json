@@ -1,24 +1,41 @@
 {
   "name": "es6-assessments",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A test-driven assessment of ES6 skills",
   "scripts": {
-    "test": "node_modules/.bin/mocha",
-    "watch": "node_modules/.bin/mocha -w"
+    "start": "node index.js",
+    "test": "node_modules/.bin/mocha -w tests/app"
+  },
+  "engines": {
+    "node": "0.12.x"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/danielrambu/es6-assessments.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/danielrambu/es6-assessments/issues"
   },
   "homepage": "https://github.com/danielrambu/es6-assessments#readme",
   "dependencies": {
     "assert": "^1.4.1",
-    "mocha": "^3.1.2"
+    "backbone": "^1.1.2",
+    "browserify": "^13.1.1",
+    "chai": "^3.5.0",
+    "expect.js": "0.1.2",
+    "finalhandler": "^0.5.0",
+    "fs": "0.0.1-security",
+    "grunt": "0.4.0",
+    "grunt-contrib-connect": "^0.10.1",
+    "grunt-contrib-jshint": "~0.1.0",
+    "grunt-contrib-watch": "~0.4.4",
+    "jquery": "^3.1.1",
+    "load-grunt-tasks": "^3.5.2",
+    "mocha": "^3.1.2",
+    "require": "^2.4.20",
+    "requirejs": "^2.3.2",
+    "serve-static": "^1.11.1",
+    "sinon": "^1.17.6",
+    "underscore": "^1.8.3"
   }
 }
